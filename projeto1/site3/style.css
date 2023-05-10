@@ -1,4 +1,11 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Julee&family=Metal+Mania&family=Sriracha&display=swap');
+    :root{
+        --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+        --fonte2: 'Acme', sans-serif,
+         'Julee', 'Metal Mania',
+        'Sriracha', cursive;
+    }
     *{
         margin: 0px;
         padding: 0px;
@@ -15,6 +22,8 @@
     header > h1{
         padding-top: 50px;
         font-variant: small-caps;
+        font-size: 50px;
+        font-family: 'Acme';
     }
     header > p{
         padding-bottom: 50px;     
@@ -29,8 +38,10 @@
         color: rgb(22, 109, 223);
     }
     section{
-        padding-top: 10%;
+        padding-top: 5%;
         padding-bottom: 10%;
+        padding-left: 20px;
+        padding-right: 10px;
     }
     section.normal{
         background-color: white;
@@ -42,9 +53,19 @@
     }
     section.imagem > p{
         background-color: rgba(0, 0, 0, 0.288);
+        font-family: 'Julee', 'Sriracha', cursive;
+        line-height: 50px;
     }
     h2{
-        padding-bottom: 100px;
+        padding-bottom: 70px;
+        font-family: 'Metal Mania', 'Julee',cursive;
+    }
+    main p{
+        text-align: left;
+        font-family: 'Sriracha', cursive;
+    }
+    main{
+        font-size: 25px;
     }
     footer{
         background-color: black;
