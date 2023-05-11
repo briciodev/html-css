@@ -67,6 +67,17 @@
     main{
         font-size: 25px;
     }
+    section#img1{
+        background-image: url(imagens/lovecraft.jpg);
+    }
+    section#img2{
+        background-image: url(imagens/ct1.png);
+        background-repeat: no-repeat;
+        
+    }
+    section#img3{
+        background-image: url(imagens/espaço.jpg);
+    }
     footer{
         background-color: black;
         color: white;
