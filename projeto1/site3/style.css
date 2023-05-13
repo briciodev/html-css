@@ -5,6 +5,7 @@
         --fonte2: 'Acme', sans-serif,
          'Julee', 'Metal Mania',
         'Sriracha', cursive;
+        --cor1:  #3e8bf0;
     }
     *{
         margin: 0px;
@@ -15,7 +16,7 @@
         background-color: darkgrey;
     }
     header{
-        background-color: black;
+        background-image: linear-gradient(to right, black, #0b373a );
         color: white;
         text-align: center;
     }
@@ -35,7 +36,7 @@
     }
     header a:hover, footer a:hover{
         text-decoration: underline;
-        color: rgb(22, 109, 223);
+        color: #166ddf;
     }
     section{
         padding-top: 5%;
@@ -44,7 +45,6 @@
         padding-right: 10px;
     }
     section.normal{
-        background-color: white;
         color: black;
     }
     section.imagem{
@@ -72,6 +72,17 @@
     }
     main{
         font-size: 25px;
+        background-color: white;
+    }
+    .citaçao{
+        background-color: #0b373a;
+        color: white;
+        font-family: 'Metal Mania';
+        box-shadow: 5px 8px 0px black;
+        text-shadow: 2px 2px 0px black;
+        margin: 85px 20px;
+        padding: 10px;
+        border-radius: 15px;
     }
     section#img1{
         background-image: url(imagens/lovecraft.jpg);
@@ -83,9 +94,9 @@
         background-image: url(imagens/espaço.jpg);
     }
     footer{
-        background-color: black;
+        background-image: linear-gradient(to right, black, #0b373a );
         color: white;
-        padding: 15px;
+        padding: 40px;
         text-align: center;
     }
     
