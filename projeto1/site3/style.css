@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Julee&family=Metal+Mania&family=Sriracha&display=swap');
     :root{
         --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-        --fonte2: 'Acme', sans-serif,
+        --fonte2: 'Acme',
          'Julee', 'Metal Mania',
         'Sriracha', cursive;
         --cor1:  #3e8bf0;
