@@ -13,7 +13,7 @@
     }
     html, body{
         min-height: 100%;
-        
+        background-color: darkgrey;
     }
     header{
         background-image: linear-gradient(to right, black, #0b373a );
@@ -71,7 +71,7 @@
     }
     main{
         font-size: 25px;
-        background-color: white;
+        
     }
     .citaçao{
         background-color: #0b373a;
