@@ -13,7 +13,6 @@
     }
     html, body{
         min-height: 100%;
-        background-color: darkgrey;
     }
     header{
         background-image: linear-gradient(to right, black, #0b373a );
@@ -71,7 +70,7 @@
     }
     main{
         font-size: 25px;
-        
+        background-color: white;
     }
     .citaçao{
         background-color: #0b373a;
@@ -84,7 +83,7 @@
         border-radius: 15px;
     }
     section#img1{
-        background-image: url(imagens/lovecraft.jpg);
+        background-image: url(imagens/lovecraft2.jpg);
     }
     section#img2{
         background-image: url(imagens/ct2.jpg);
