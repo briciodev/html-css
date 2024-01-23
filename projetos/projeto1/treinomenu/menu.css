@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(162, 0, 255);
+    padding-inline: 16px; /* shorthand q é referente a padding de left e right*/
+}
+.nav{
+    max-width: 1280px; /*largura maxima*/
+    height: 70px;
+    margin-inline: auto; /* shorthand q é referente a margin de left e right*/
+
+    display: flex; /*todos os filhos ficam um do lado do outro*/
+    justify-content: space-between; /*coloca um espaçamento entre os itens*/
+    
+}
+.logo{
+    font-size: 45px;
+}
+.navList{
+    display: flex;
+    gap: 23px; /*gap define os espaços entre as linhas e colunas. É uma propriedade shorthand para row-gap e column-gap*/
+    list-style: none; /*estilo da lista*/
+
+}

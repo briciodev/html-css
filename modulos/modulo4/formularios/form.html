@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>dados</legend>
+            <p>
+                <label for="iusu">Usuario</label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" size="15" placeholder="nome do usuario" autocomplete="username">
+            </p>
+            <p>
+                <label for="isen">Senha</label>
+                <input type="password" name="sen" id="isen" required minlength="8" maxlength="20" size="15" autocomplete="current-password">
+            </p>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="email" name="emai" id="email">
+            </p>
+            <p>
+                <label for="tel">telefone</label>
+                <input type="tel" name="tele" id="tel">
+            </p>
+            <p>
+                <label for="imed">media</label>
+                <input type="number" name="med" id="imed" min="0" max="10" step="0.5" placeholder="nota">
+            </p>
+            <p>
+                <label for="mes">bimestre</label>
+                <input type="month" name="mess" id="mes" required value="2017-10">
+            </p>
+            <p>
+                <label for="dia">dia da prova</label>
+                <input type="date" name="di" id="dia">
+            </p>
+            <p>
+                <label for="hr">hora da prova</label>
+                <input type="time" name="hora" id="hr" >
+            </p>
+        </fieldset>
+            <p><input type="submit" value="Enviar">
+                <input type="reset" value="limpar">
+            </p>
+    </form>
+    <hr>
+    <h2>filmes bons</h2>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>filmes</legend>
+            <label for="fima">matrix</label>
+            <input type="checkbox" name="matrix" id="fima"><br>
+            <label for="fivin">vingadores</label>
+            <input type="checkbox" name="ving" id="fivin"><br>
+            <label for="figat">gato de botas 2</label>
+            <input type="checkbox" name="gato" id="figat"><br>
+            <label for="fiava">avatar 2</label>
+            <input type="checkbox" name="matrix" id="fiava"><br>
+            <label for="fiele">elementos</label>
+            <input type="checkbox" name="elementos" id="fiele">
+        </fieldset>
+        <h3>qual</h3>
+        <input type="radio" name="qual" id="bis"><label for="bis">biscoito</label>
+        <input type="radio" name="qual" id="bol"><label for="bis">bolacha</label>
+        <p> <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

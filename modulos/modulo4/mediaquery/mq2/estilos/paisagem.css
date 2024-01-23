@@ -1,0 +1,5 @@
+@charset "UTF-8";
+/*aparelho deitado, landscape, paisagem*/
+body{
+    background-image: url(../cev-landscape.jpg);
+}

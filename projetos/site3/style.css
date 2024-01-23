@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Julee&family=Metal+Mania&family=Sriracha&display=swap');
+    :root{
+        --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+        --fonte2: 'Acme',
+         'Julee', 'Metal Mania',
+        'Sriracha', cursive;
+        --cor1:  #3e8bf0;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    html, body{
+        min-height: 100%;
+    }
+    header{
+        background-image: linear-gradient(to right, black, #0b373a );
+        color: white;
+        text-align: center;
+    }
+    header > h1{
+        padding-top: 50px;
+        font-variant: small-caps;
+        font-size: 50px;
+        font-family: 'Acme';
+    }
+    header > p{
+        padding-bottom: 50px;     
+    }
+    header a, footer a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: white;
+    }
+    header a:hover, footer a:hover{
+        text-decoration: underline;
+        color: #166ddf;
+    }
+    section{
+        padding-top: 5%;
+        padding-bottom: 10%;
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    section.normal{
+        color: black;
+    }
+    section.imagem{
+        color: white;
+        box-shadow: inset 6px 6px 13px 0px black;
+        background-size: 100vw;
+        background-size: 100%;
+        background-size: cover;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+    section.imagem > p{
+        background-color: rgba(0, 0, 0, 0.288);
+        font-family: 'Julee', 'Sriracha', cursive;
+        line-height: 50px;
+    }
+    h2{
+        padding-bottom: 70px;
+        font-family: 'Metal Mania', 'Julee',cursive;
+    }
+    main p{
+        text-align: left;
+        font-family: 'Sriracha', cursive;
+    }
+    main{
+        font-size: 25px;
+        background-color: white;
+    }
+    .citaçao{
+        background-color: #0b373a;
+        color: white;
+        font-family: 'Metal Mania';
+        box-shadow: 5px 8px 0px black;
+        text-shadow: 2px 2px 0px black;
+        margin: 85px 20px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    section#img1{
+        background-image: url(imagens/lovecraft2.jpg);
+    }
+    section#img2{
+        background-image: url(imagens/ct2.jpg);
+    }
+    section#img3{
+        background-image: url(imagens/espaço.jpg);
+    }
+    footer{
+        background-image: linear-gradient(to right, black, #0b373a );
+        color: white;
+        padding: 40px;
+        text-align: center;
+    }
+    

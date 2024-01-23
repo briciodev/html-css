@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>exemplo de formularios</h1>
+    <p>
+        <label for="num1">numero 1:</label>
+        <input type="number" name="" id="num1" min="0" required oninput="soma.innerHTML = Number(num1.value) + Number(num2.value)">
+    </p>
+    <p>
+        <label for="num2">numero 2:</label>
+        <input type="number" name="" id="num2" min="0" required oninput="soma.innerHTML= Number(num1.value) + Number(num2.value)">
+    </p>
+    <p style="margin-bottom: 30px;">
+        <label for="soma">Soma:</label>
+        <output id="soma">0</output>
+    </p>
+
+    <p>
+        <label for="barri">numero</label>
+        <input type="range" name="" id="barri" min="0" max="10" value="5" oninput="nuf.innerHTML= Number(barri.value)">
+        <output id="nuf">  5</output>
+    </p>
+
+    <p>
+        <label for="ano">em qual ano voce nasceu?</label>
+        <input type="number" name="" id="ano" min="1900" max="2023" oninput="calcu()">
+        <br>
+        sua idade é:<output id="idade"> 0</output> 
+    </p>
+    <script>
+        function calcu() {
+            let atual = new Date().getFullYear() 
+            idade.innerHTML= Number(atual) - Number(ano.value)
+        }
+    </script>
+    <input type="submit" value="somar">
+    <input type="reset" value="limpar">
+    
+</body>
+</html>
