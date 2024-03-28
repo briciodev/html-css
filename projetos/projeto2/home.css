@@ -1,0 +1,98 @@
+:root {
+    --cor1: rgb(15, 17, 15);
+    --cor2: rgb(71, 255, 117);
+    --cor3: rgb(28, 216, 3);
+    --cor4: rgb(246, 247, 239);
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-color: var(--cor1);
+    color: white;
+    padding-top: 35px;
+    min-height: 90px;
+}
+
+header>h1 {
+    font-size: 2.7em;
+    margin-bottom: 15px;
+    padding-left: 28px;
+}
+
+.jl {
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+header>p {
+    font-style: italic;
+    margin-bottom: 15px;
+    padding-left: 45px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgba(122, 255, 122, 0.596);
+    border: none;
+    margin-bottom: 15px;
+}
+
+
+nav {
+    padding: 10px;
+    
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.banner{
+   background-color: #050505;
+}
+.bannerImg{
+    display: block;
+    width: 60%;
+    height: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin: 15px 0px 45px 15px;
+}
+
+.card > img {
+    width: 100%;
+    min-width: 100px;
+    max-width: 400px;
+
+}
+
+.vitrine {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-bottom: 245px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 2px 18px #13141f;
+    border-radius: 15px;
+    margin: 0px 15px;
+}
+
